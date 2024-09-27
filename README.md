@@ -1,5 +1,41 @@
 # SpeakBot Python
-## Installation
+
+## Installation EN
+
+### Python
+
+Install Python from the site: https://www.python.org/downloads/
+
+### FFMPeg
+
+#### Windows
+* Download the FFmpeg zip file from the official site: https://ffmpeg.org/download.html
+* Extract it and add the `bin` folder from FFmpeg to your environment variable PATH.
+
+#### Linux
+> sudo apt install ffmpeg
+
+#### MacOS
+> brew install ffmpeg
+
+### Project and Environment Setup
+
+Install the environment:
+> python3 -m venv .env
+
+Create a `token.txt` file at the root of the project and place your bot's token inside it.
+
+Activate the environment using `Activate` located in `.env/bin` for Linux and `.env/Scripts` for Windows.
+
+> .env\Scripts\Activate
+
+### Python Packages
+
+> pip install discord\
+> pip install discord-py-interaction\
+> pip install PyNaCl
+
+## Installation FR
 
 ### Python
 
@@ -33,3 +69,4 @@ Activer l'environnement, grace à `Activate` qui se trouve dans `.env/bin` pour 
 > pip install discord\
 > pip install discord-py-interaction\
 > pip install PyNaCl
+
