@@ -1,6 +1,10 @@
 # SpeakBot Python
 ## Installation
 
+### Python
+
+Installez python depuis le site : https://www.python.org/downloads/
+
 ### FFMPeg
 
 #### Windows
@@ -13,12 +17,16 @@
 #### MacOS
 > brew install ffmpeg
 
-### Création de l'environnement python
+### Création du projet et de l'environnement
+
+Installer l'environnement
 > python3 -m venv .env
 
-Activer l'environnementn, grace à `Activate` qui se trouve dans `.env/bin` pour linux et `.env/Scripts` pour Windows
+Créez un fichier `token.txt` à la raçine du projet et glissez le token de votre bot dedans.
 
-> .\.env\Scripts\Activate
+Activer l'environnement, grace à `Activate` qui se trouve dans `.env/bin` pour linux et `.env/Scripts` pour Windows
+
+> .env\Scripts\Activate
 
 ### Packages Python
 
