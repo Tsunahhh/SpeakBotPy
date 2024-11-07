@@ -67,6 +67,6 @@ Activer l'environnement, grace à `Activate` qui se trouve dans `.env/bin` pour 
 ### Packages Python
 
 > pip install discord\
-> pip install discord-py-interaction\
+> pip install discord-py-interactions\
 > pip install PyNaCl
 
