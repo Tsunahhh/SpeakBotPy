@@ -32,7 +32,7 @@ Activate the environment using `Activate` located in `.env/bin` for Linux and `.
 ### Python Packages
 
 > pip install discord\
-> pip install discord-py-interaction\
+> pip install discord-py-interactions\
 > pip install PyNaCl
 
 ## Installation FR
